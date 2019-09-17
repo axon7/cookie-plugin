@@ -1,0 +1,55 @@
+.cookiePlugin {
+  font-family: "Arial", Courier;
+  width: 600px;
+  height: 300px;
+  background-color: rgb(182, 219, 231);
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disablescroll {
+  overflow-y: hidden;
+}
+
+.cookiePlugin.hide {
+  display: none;
+}
+
+.accept-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.cancel-button {
+  background-color: #c54a4a; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
